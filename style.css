@@ -1,0 +1,176 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    border-bottom: 3px solid black;
+    padding-bottom: 10px;
+}
+
+h2 {
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+    align-items: center;
+}
+
+.card {
+    width: 550px;
+    /* height: 320px; */
+    border: 2px solid black;
+    border-radius: 4px;
+    padding-bottom: 5px;
+    display: none;
+}
+
+input {
+    border-radius: 4px;
+    /* outline: 0; */
+}
+
+#select {
+    border-radius: 4px;
+    /* outline: none; */
+}
+
+.name_input {
+    width: 320px;
+    height: 40px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0 10px;
+}
+
+.form_btn {
+    margin-top: 30px;
+}
+
+.btn {
+    padding: 10px 30px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 3px;
+    background-color: rgb(172, 248, 248);
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.logo {
+    width: 80px;
+    height: 70px;
+    overflow: hidden;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Uni_name {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    column-gap: 3px;
+}
+
+.card_split {
+    display: flex;
+    margin-top: 20px;
+    padding: 0 20px;
+    column-gap: 30px;
+}
+
+.card_name {
+    font-size: 25px;
+    margin-top: 0;
+}
+
+.Student_img {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+}
+
+.Student_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Student_form h3 {
+    font-weight: 300;
+    font-size: 17px;
+    padding-bottom: 5px;
+}
+
+.uni_text h2 {
+    margin-top: 13px;
+}
+
+.birthday {
+    display: flex;
+    column-gap: 5px;
+}
+
+.student_dept {
+    display: flex;
+    column-gap: 10px;
+}
+
+.student_id h2 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.name_err,
+.date_err,
+.dept_err {
+    color: red;
+}
+
+.date_info {
+    padding: 0 8px;
+}
+
+.student_id {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.student_id h3 {
+    font-weight: 300;
+}
+
+.copyright {
+    text-align: right;
+    margin-right: 10px;
+}
+
+.copyright h3 {
+    font-weight: 300;
+    font-size: 12px;
+}
+
